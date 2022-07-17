@@ -1,0 +1,198 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: fantasy;
+}
+
+body {
+	background-color: #000;
+}
+
+#bg_body{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.box_login{
+	width: 300px;
+	min-height: 200px;
+	border: 1px solid black;
+	background-color:#FFFFFF;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.box_login h2{
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.input_data{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+}
+
+.tombol_login{
+	padding: 8px 15px;
+	background-color: #00FF00 ;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+
+}
+
+#bd_dashboard{
+	background-color: #f6ff00;
+}
+
+header{
+	background-color: #000000;
+}
+
+header a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+header h1{
+	float: left;
+	padding: 10px 0;
+}
+
+header ul{
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+	
+}
+
+header ul li a{
+	padding: 20px 0 20px 15px;
+	display: inline-block;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.section{
+	padding: 25px 0;
+}
+
+.box{
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	padding: 15px;
+	box-sizing: border-box;
+	margin: 10px 0 25px 0;
+}
+.box:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.table{
+	width: 50%;
+}
+
+.table tr{
+	height: 30px;
+}
+
+.table tr td{
+	padding: 5px 10px;
+}
+
+.tablep{
+	width: 100%;
+}
+
+.tablep tr{
+	height: 30px;
+}
+
+.tablep tr td{
+	padding: 5px 10px;
+}
+
+.search{
+	padding: 15px 0;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+.search input[type=text] {
+	width: 50%;
+	padding: 10px;
+}
+
+.search input[type=submit] {
+	padding: 12px 15px;
+	background-color: #00ff0d;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+}
+
+.col-3{
+	width: 33%;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+
+.col-5{
+	width: 18%;
+	height: 330px;
+	border: 1px solid #000000;
+	float: left;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.col-5 img{
+	width: 100%;
+}
+
+.col-5 .nama{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+.col-5 .harga{
+	color: #E3490B;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.pesan{
+	padding: 5px 15px;
+	background-color:#000 ;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+
+}
+
